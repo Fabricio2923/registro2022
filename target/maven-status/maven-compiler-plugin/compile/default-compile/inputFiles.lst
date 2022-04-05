@@ -1,0 +1,14 @@
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\service\CategoriaServiceImpl.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\rest\CategoriaController.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\rest\request\CategoriaRequest.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\repository\CategoriaRepository.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\ServicioRestApplication.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\entity\Producto.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\service\ProductoServiceImpl.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\entity\Categoria.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\entity\Distrito.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\service\CategoriaService.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\service\ProductoService.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\repository\ProductoRepository.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\rest\ProductoController.java
+D:\Program Files\NetBeans-12.4\proyects\serviciorestremoto\src\main\java\pe\com\serviciosrest\entity\Cliente.java
