@@ -1,6 +1,7 @@
 package pe.com.serviciosrest.entity;
 
 //anotaciones de spring
+
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,27 +10,26 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import lombok.Builder;
-
 @Builder
-@Entity(name = "Categoria")
-@Table(name = "t_categoria")
-public class Categoria implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+@Entity(name="Categoria")
+@Table(name="t_categoria")
+public class Categoria implements Serializable{
+    private static final long serialVersionUID=1L;
+    
     //anotaciones
-    @Id //para identificar la clave primaria
-    @Column(name = "codcat")//para identificar el nombre de la columna
+    @Id // para identificar la clave primaria
+    @Column(name="codcat")//para identificar el nombre de la columna
     @GeneratedValue(strategy = GenerationType.IDENTITY)//autoincrement
     private long codigo;
-    @Column(name = "nomcat")
+    @Column(name="nomcat")
     private String nombre;
-    @Column(name = "estcat")
+    @Column(name="estcat")
     private boolean estado;
 
     public Categoria() {
     }
 
-    public Categoria(long codigo, String nombre,
+    public Categoria(long codigo, String nombre, 
             boolean estado) {
         this.codigo = codigo;
         this.nombre = nombre;
@@ -59,5 +59,7 @@ public class Categoria implements Serializable {
     public void setEstado(boolean estado) {
         this.estado = estado;
     }
-
+    
+       
 }
+

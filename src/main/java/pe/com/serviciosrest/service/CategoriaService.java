@@ -6,16 +6,16 @@ import pe.com.serviciosrest.entity.Categoria;
 
 public interface CategoriaService {
 
-    List<Categoria> findAll();
+ List<Categoria> finAll();
 
-    Optional<Categoria> findById(Long id);
+ Optional<Categoria> findById(Long id);
 
-    List<Categoria> finByName(String name);
+ List<Categoria> finByName(String name);
 
-    Categoria add(Categoria c);
+ Categoria add(Categoria c);
 
-    Categoria update(Categoria c);
+ Categoria update(Categoria c);
 
-    Categoria delete(Categoria c);
+ Categoria delete(Categoria c);
 
 }

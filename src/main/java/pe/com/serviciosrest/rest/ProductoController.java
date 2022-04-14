@@ -18,34 +18,41 @@ import pe.com.serviciosrest.service.ProductoService;
 @RequestMapping("/producto")
 public class ProductoController {
 
+    // LISTAR TODOS LOS PRODUCTOS
     @Autowired
     private ProductoService productoService;
 
     @GetMapping
     public List<Producto> findAll() {
         return productoService.findAll();
+
     }
 
+    // AGREGAR PRODUCTO
     @PostMapping
     public Producto add(@RequestBody Producto p) {
         return productoService.add(p);
     }
 
+    // BUSCAR PRODUCTO POR ID
     @GetMapping("/{id}")
     public Optional<Producto> findById(@PathVariable long id) {
         return productoService.findById(id);
     }
 
+    // ACTUALIZAR PRODUCTO
     @PutMapping("/{id}")
     public Producto update(@PathVariable long id, @RequestBody Producto p) {
         p.setCodigo(id);
         return productoService.update(p);
     }
 
+    // ELIMINAR PRODUCTO
     @DeleteMapping("/{id}")
     public Producto delete(@PathVariable long id) {
         Producto objcategoria = new Producto();
         objcategoria.setCodigo(id);
         return productoService.delete(Producto.builder().codigo(id).build());
     }
+
 }
