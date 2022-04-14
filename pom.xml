@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pe.com.serviciosrest</groupId>
-	<artifactId>ServicioRest</artifactId>
+	<artifactId>ServiciosRest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ServicioRest</name>
+	<name>ServiciosRest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		
+
 	</properties>
 	<dependencies>
 		<dependency>
